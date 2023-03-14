@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.navbar
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.navbar ul li
+{
+    display: inline-block;
+    padding: 23px 19px;
+}
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 1%;
+}
+.navbar-brand img
+{
+    width: 60%;
+    height: 130px;
+    margin-left: 12%;
+    margin-top: -2%;
+    padding: 2px;
+}
+#log-btn
+{
+    width: 100px;
+}
+.bi-facebook,.bi-twitter,.bi-instagram,.bi-github,.bi-whatsapp,.bi-cart
+{
+    font-size: 22px;
+    letter-spacing: 8px;
+    margin-left: 1%;
+}
+.modal-dialog
+{
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+#btn-log
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+}
+.email, .password
+{
+    border: none;
+    border-bottom: solid 2px lightblue;
+}
+#btn-log-register
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+}
+#btn-log-reset
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    margin-left: 10%;
+}
+.content
+{
+    width: 100%;
+    height: auto;
+}
+.footer
+{
+    width: 100%;
+    height: auto;
+}
+.footer li
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.bord
+{
+    border-right: solid white 1px;
+}
