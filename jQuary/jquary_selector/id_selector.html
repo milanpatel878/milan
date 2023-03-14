@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>id</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script>
+    $(document).ready(function(){
+
+        $("#btn").css({"width":"550px","height":"45px","padding":"9px","background-color":"orange","color":"white","border":"none","font-size":"25px"});
+       $("#btn").click(function(){
+        var a=125;
+        var b=350;
+        var  c=a+b;
+         alert('Additions of numbers is :'+c);
+       });
+    });
+    
+    </script>
+</head>
+<body>
+
+    <button type="button" id="btn">Answer</button>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>prepend</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script>
+    $(document).ready(function(){
+
+       $("button").addClass("mmm");  
+       $("#btn").click(function(){
+        $("b").prepend("<b> GONDALIYA  &nbsp</b>")
+
+       });
+    });
+    </script>
+
+    <style>
+        .mmm 
+        {
+            width: 300px;
+            height: auto;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+    <b>MILAN</b>
+    <br><br>
+    <button type="button" id="btn">PREPEND</button>
+    </center>
+</body>
+</html>

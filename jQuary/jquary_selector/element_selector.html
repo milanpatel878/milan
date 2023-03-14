@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>element selector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.2.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("button").css({"width":"350px","height":"45px","padding":"10px","background-color":"blue","color":"white","border":"none","font-size": "20px"});
+            $("#btn").click(function(){
+                var a=40;
+                var b=80;
+                var c=a*b;
+                alert("multiplication of number is:"+c);
+            })
+        })
+    </script>
+</head>
+<body>
+    <center>
+    <button type="button" id="btn"> click </button> 
+</center>
+</body>
+</html>
