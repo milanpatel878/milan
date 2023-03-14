@@ -1,0 +1,41 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 206, 206);
+    overflow-x: hidden;
+}
+.calc 
+{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    margin-top: 5%;
+}
+.calcu
+{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    background-color:pink;
+}
+::placeholder
+{
+    color: black;
+    font-size: 30px;
+}
+input 
+{
+    font-size: 30px;
+}
+
+#btn 
+{
+    width: 24.4%;
+    height: 55px;
+    background-color: rgb(150, 28, 68);
+    border: none !important;
+    color: white;
+
+}
