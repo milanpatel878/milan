@@ -1,0 +1,6 @@
+Inheritance : One class property used by another class there we used inheritance
+//               one class property used by nother class by extends keyword  
+        // types of Inheritance 
+        //    a) single inheritance
+        //    b) multilevel inheritance 
+        //    c) multiple inheritance 
