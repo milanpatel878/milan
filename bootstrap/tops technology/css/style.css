@@ -1,0 +1,40 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header 
+{
+    border-bottom: solid 8px #48a6dc;
+}
+.logo img 
+{
+    width: 35%;
+}
+.careercenter
+{
+    border-top: solid 5px #48a6dc !important;
+}
+.card-header
+{
+    border-bottom: solid 8px #48a6dc !important;
+}
+.bg-color
+{
+    background-color: #3a60bd;
+    border-radius: 0px 0px 5px 5px;
+}
+.content 
+{
+    background-color: #e4e6eb !important;
+}
+.login-form,.login-details
+{
+    border-top: solid 8px #353fc9 !important;
+}
+.login-details ul li 
+{
+    text-decoration: none;
+    list-style-type: none;
+}
