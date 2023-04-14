@@ -19,34 +19,58 @@ $baseurl="http://localhost/php6pmTTS/car-rental/admin/assets/";
 						<form method="post" enctype="multipart/form-data">
 						<div class="container">
 						<div class="col-md-4">
-						<input type="file" name="img1" class="img-responsive" required><?php echo $eddata[0]["img1"]; ?></input>
-						<input type="text" name="pr1" placeholder="enter price" required><?php echo $eddata[0]["pr1"]; ?></input>
-						<input type="file" name="img2" class="img-responsive" required><?php echo $eddata[0]["img2"]; ?></input>
-						<input type="text" name="pr2" placeholder="enter price" required><?php echo $eddata[0]["pr2"]; ?></input>
-						<input type="file" name="img3" class="img-responsive" required><?php echo $eddata[0]["img3"]; ?></input>
-						<input type="text" name="pr3" placeholder="enter price" required><?php echo $eddata[0]["pr3"]; ?></input>
-						<input type="file" name="img4" class="img-responsive" required><?php echo $eddata[0]["img4"]; ?></input>
-						<input type="text" name="pr4" placeholder="enter price" required><?php echo $eddata[0]["pr4"]; ?></input>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img1" class="img-responsive" required><?php echo $sliderdata[0]["img1"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr1" placeholder="enter price" required><?php echo $sliderdata[0]["pr1"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img2" class="img-responsive" required><?php echo $sliderdata[0]["img2"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr2" placeholder="enter price" required><?php echo $sliderdata[0]["pr2"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img3" class="img-responsive" required><?php echo $sliderdata[0]["img3"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr3" placeholder="enter price" required><?php echo $sliderdata[0]["pr3"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img4" class="img-responsive" required><?php echo $sliderdata[0]["img4"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr4" placeholder="enter price" required><?php echo $sliderdata[0]["pr4"]; ?><br>
 						</div>
 						<div class="col-md-4">
-						<input type="file" name="img5" class="img-responsive" required><?php echo $eddata[0]["img5"]; ?></input>
-						<input type="text" name="pr5" placeholder="enter price" required><?php echo $eddata[0]["pr5"]; ?></input>
-						<input type="file" name="img6" class="img-responsive" required><?php echo $eddata[0]["img6"]; ?></input>
-						<input type="text" name="pr6" placeholder="enter price" required><?php echo $eddata[0]["pr6"]; ?></input>
-						<input type="file" name="img7" class="img-responsive" required><?php echo $eddata[0]["img7"]; ?></input>
-						<input type="text" name="pr7" placeholder="enter price" required><?php echo $eddata[0]["pr7"]; ?></input>
-						<input type="file" name="img8" class="img-responsive" required><?php echo $eddata[0]["img8"]; ?></input>
-						<input type="text" name="pr8" placeholder="enter price" required><?php echo $eddata[0]["pr8"]; ?></input>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img5" class="img-responsive" required><?php echo $sliderdata[0]["img5"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr5" placeholder="enter price" required><?php echo $sliderdata[0]["pr5"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img6" class="img-responsive" required><?php echo $sliderdata[0]["img6"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr6" placeholder="enter price" required><?php echo $sliderdata[0]["pr6"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img7" class="img-responsive" required><?php echo $sliderdata[0]["img7"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr7" placeholder="enter price" required><?php echo $sliderdata[0]["pr7"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img8" class="img-responsive" required><?php echo $sliderdata[0]["img8"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr8" placeholder="enter price" required><?php echo $sliderdata[0]["pr8"]; ?><br>
 						</div>
 						<div class="col-md-4">
-						<input type="file" name="img9" class="img-responsive" required><?php echo $eddata[0]["img9"]; ?></input>
-						<input type="text" name="pr9" placeholder="enter price" required><?php echo $eddata[0]["pr9"]; ?></input>
-						<input type="file" name="img10" class="img-responsive" required><?php echo $eddata[0]["img10"]; ?></input>
-						<input type="text" name="pr10" placeholder="enter price" required><?php echo $eddata[0]["pr10"]; ?></input>
-						<input type="file" name="img11" class="img-responsive" required><?php echo $eddata[0]["img11"]; ?></input>
-						<input type="text" name="pr11" placeholder="enter price" required><?php echo $eddata[0]["pr11"]; ?></input>
-						<input type="file" name="img12" class="img-responsive" required><?php echo $eddata[0]["img12"]; ?></input>
-						<input type="text" name="pr12" placeholder="enter price" required><?php echo $eddata[0]["pr12"]; ?></input>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img9" class="img-responsive" required><?php echo $sliderdata[0]["img9"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr9" placeholder="enter price" required><?php echo $sliderdata[0]["pr9"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img10" class="img-responsive" required><?php echo $sliderdata[0]["img10"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr10" placeholder="enter price" required><?php echo $sliderdata[0]["pr10"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img11" class="img-responsive" required><?php echo $sliderdata[0]["img11"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr11" placeholder="enter price" required><?php echo $sliderdata[0]["pr11"]; ?><br>
+						<label for="name" class="text-success">Edit photo </label><br>
+						<input type="file" name="img12" class="img-responsive" required><?php echo $sliderdata[0]["img12"]; ?><br>
+						<label for="name" class="text-success">Edit price </label><br>
+						<input type="text" name="pr12" placeholder="enter price" required><?php echo $sliderdata[0]["pr12"]; ?><br>
 						</div>
 						</div>
 						<!--//screen-gallery-->

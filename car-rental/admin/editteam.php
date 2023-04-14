@@ -26,10 +26,12 @@ $baseurl="http://localhost/php6pmTTS/car-rental/admin/assets/";
 					</div>
 					<div class="about-bottom">
 						<div class="about-bottom-image">
-						<input type="file" name="photo1" class="img-responsive" required><?php echo $eddata[0]["photo1"]; ?></input>
+						<label for="name" class="text-success">Edit CEO image </label><br>
+						<input type="file" name="photo1" class="img-responsive" required><?php echo $teamdata[0]["photo1"]; ?></input>
 						</div>
 						<div class="about-bottom-bottom">
-						<input type="text" name="nm1" placeholder="enter name" required><?php echo $eddata[0]["nm1"]; ?></input>
+						<label for="name" class="text-success">Edit CEO name </label><br>
+						<input type="text" name="nm1" placeholder="enter name" required><?php echo $teamdata[0]["nm1"]; ?></input>
 						<!-- <div class="agileits_social_list">
 								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -47,10 +49,12 @@ $baseurl="http://localhost/php6pmTTS/car-rental/admin/assets/";
 					</div>
 					<div class="about-bottom">
 						<div class="about-bottom-image">
-						<input type="file" name="photo2" class="img-responsive" required><?php echo $eddata[0]["photo2"]; ?></input>
+						<label for="name" class="text-success">Edit MD image </label><br>
+						<input type="file" name="photo2" class="img-responsive" required><?php echo $teamdata[0]["photo2"]; ?></input>
 						</div>
 						<div class="about-bottom-bottom">
-						<input type="text" name="nm2" placeholder="enter name" required><?php echo $eddata[0]["nm2"]; ?></input>
+						<label for="name" class="text-success">Edit MD name </label><br>
+						<input type="text" name="nm2" placeholder="enter name" required><?php echo $teamdata[0]["nm2"]; ?></input>
 							<!-- <div class="agileits_social_list">
 								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -68,10 +72,12 @@ $baseurl="http://localhost/php6pmTTS/car-rental/admin/assets/";
 					</div>
 					<div class="about-bottom">
 						<div class="about-bottom-image">
-						<input type="file" name="photo3" class="img-responsive" required><?php echo $eddata[0]["photo3"]; ?></input>
+						<label for="name" class="text-success">Edit HR image </label><br>
+						<input type="file" name="photo3" class="img-responsive" required><?php echo $teamdata[0]["photo3"]; ?></input>
 						</div>
 						<div class="about-bottom-bottom">
-						<input type="text" name="nm3" placeholder="enter name" required><?php echo $eddata[0]["nm3"]; ?></input>
+						<label for="name" class="text-success">Edit HR name </label><br>
+						<input type="text" name="nm3" placeholder="enter name" required><?php echo $teamdata[0]["nm3"]; ?></input>
 							<!-- <div class="agileits_social_list">
 								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>

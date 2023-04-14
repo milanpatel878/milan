@@ -20,11 +20,15 @@ $baseurl="http://localhost/php6pmTTS/car-rental/admin/assets/";
             <div class="col about-left-w3layouts bg-light">
 				<h6 class="sub bg-warning">WELCOME TO OUR Rental Car</h6>
 				<form method="post" enctype="multipart/form-data">
-                <input type="text" name="pg1" placeholder="write a about content" required><?php echo $eddata[0]["pg1"]; ?> </input>
-                <br><br><br>
-                <input type="text" name="pg2" placeholder="write a about content" required><?php echo $eddata[0]["pg2"]; ?></input>
+				<label for="name" class="text-success">Edit about content</label><br>
+                <input type="text" name="pg1" placeholder="write a about content" value="<?php echo $aboutdata[0]["pg1"]; ?>" required> 
+				<br><br>
+				<label for="name" class="text-success">Edit about content</label><br>
+                <input type="text" name="pg2" placeholder="write a about content" value="<?php echo $aboutdata[0]["pg2"]; ?>" required>
 				<br><br><br>
-				<input type="file" name="video" required><?php echo $eddata[0]["video"]; ?></input>
+				<label for="name" class="text-success">Edit video</label><br><br>
+				<img src="<?php echo $aboutdata[0]["video"]; ?>" class="w-50 h-50"><br><br>
+				<input type="file" name="vd" required>
 			<br>
 				<button type="submit" name="updabout" class="btn btn-success btn-lg">Update About</button>
 			<br><br>

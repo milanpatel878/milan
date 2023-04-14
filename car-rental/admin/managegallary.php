@@ -15,28 +15,28 @@ $baseurl="http://localhost/php6pmTTS/car-rental/admin/assets/";
 			</div>
 			<form method="post" enctype="multipart/form-data">
 
-			<input type="file" name="pc1" class="img-responsive" required></input>
+			<input type="file" name="pc1" required></input>
 			<input type="text" name="dtl1" class="form-control" required></input>
 
-			<input type="file" name="pc2" class="img-responsive" required></input>
+			<input type="file" name="pc2"  required></input>
 			<input type="text" name="dtl2" class="form-control" required></input>
 
-			<input type="file" name="pc3" class="img-responsive" required></input>
+			<input type="file" name="pc3"  required></input>
 			<input type="text" name="dtl3" class="form-control" required></input>
 
-			<input type="file" name="pc4" class="img-responsive" required></input>
+			<input type="file" name="pc4" required></input>
 			<input type="text" name="dtl4" class="form-control" required></input>
 
-			<input type="file" name="pc5" class="img-responsive" required></input>
+			<input type="file" name="pc5"  required></input>
 			<input type="text" name="dtl5" class="form-control" required></input>
 
-			<input type="file" name="pc6" class="img-responsive" required></input>
+			<input type="file" name="pc6" required></input>
 			<input type="text" name="dtl6" class="form-control" required></input>
 
-			<input type="file" name="pc7" class="img-responsive" required></input>
+			<input type="file" name="pc7" required></input>
 			<input type="text" name="dtl7" class="form-control" required></input>
 
-			<input type="file" name="pc8" class="img-responsive" required></input>
+			<input type="file" name="pc8" required></input>
 			<input type="text" name="dtl8" class="form-control" required></input>
 			<br>
 			<center>
